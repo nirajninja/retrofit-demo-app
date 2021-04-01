@@ -1,18 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/plttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="platform name"
+        />
+
+    <EditText
+        android:id="@+id/ettext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        />
+    <Button
+        android:text="generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+
+        />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:gravity="center_horizontal"
+
+        />
+
+    <TextView
+
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textAlignment="center"
+
+        />
+    <TextView
+
+        android:id="@+id/tv11"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="hello"
+    android:textAlignment="center"
+
+    />
+    <TextView
+
+        android:id="@+id/tv12"
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="hello"
+    android:textAlignment="center"
+
+    />
+
+
+
+
+
+</LinearLayout>

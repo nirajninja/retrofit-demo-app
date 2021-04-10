@@ -9,18 +9,19 @@
 
 
     <EditText
+        android:id="@+id/ettext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        />
+    <EditText
         android:id="@+id/plttext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="platform name"
         />
 
-    <EditText
-        android:id="@+id/ettext"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="User name"
-        />
+
     <Button
         android:text="generate"
         android:layout_width="match_parent"
@@ -28,118 +29,44 @@
         android:id="@+id/btn1"
 
         />
+
+
+    <Button
+        android:id="@+id/ccbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="codechef" />
+
+
     <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="hello"
-        android:gravity="center_horizontal"
-
         />
-
     <TextView
-
         android:id="@+id/tv2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="hello"
-        android:textAlignment="center"
-
         />
     <TextView
-
         android:id="@+id/tv3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="hello"
-        android:textAlignment="center"
-
         />
-
     <TextView
-
         android:id="@+id/tv4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="hello"
-        android:textAlignment="center"
-
         />
     <TextView
-
         android:id="@+id/tv5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="hello"
-        android:textAlignment="center"
-
         />
-    <TextView
-
-        android:id="@+id/tv6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:textAlignment="center"
-
-        />
-    <TextView
-
-        android:id="@+id/tv7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:textAlignment="center"
-
-        />
-    <TextView
-
-        android:id="@+id/tv8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:textAlignment="center"
-
-        />
-    <TextView
-
-        android:id="@+id/tv9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:textAlignment="center"
-
-        />
-    <TextView
-
-        android:id="@+id/tv10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:textAlignment="center"
-
-        />
-    <TextView
-
-        android:id="@+id/tv11"
-        android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="hello"
-    android:textAlignment="center"
-
-    />
-    <TextView
-
-        android:id="@+id/tv12"
-        android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="hello"
-    android:textAlignment="center"
-
-    />
-
-
-
-
 
 </LinearLayout>
